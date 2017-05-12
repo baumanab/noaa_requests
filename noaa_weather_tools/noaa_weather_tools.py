@@ -1,6 +1,14 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import pandas as pd
+import numpy as np
+from pandas.io import json
+import requests
+import os
+import sys
+import string
+
 def query_builder(start_dt, end_dt, station, offset= 1):
 
     """Function accepts: a start and end datetime string in the form 'YYYYMMDD mm:ss'
@@ -149,7 +157,7 @@ def get_ncdc(start_dt, end_dt, station):
 
     return collated_data, record_count, query_dict
 
-    
+
 
 def gen_csv(df, query_dict):
     """
