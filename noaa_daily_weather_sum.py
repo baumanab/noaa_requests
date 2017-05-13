@@ -38,15 +38,8 @@ def noaa_dailysum_weather_processor(start_dt, end_dt, station):
 
 noaa_dailysum_weather_processor(sys.argv[1], sys.argv[2], sys.argv[3])
 
-import sys
-
-# set path to tools library and import
-sys.path.append(r'noaa_weather_tools')
-from noaa_weather_tools import noaa_weather_tools
 
 
 def noaa_dailysum_weather_processor(start_dt, end_dt):
 
-    """Function accepts a beginning and end datetime string in the form 'YYYYMMDD mm:ss' which span <= 1 year from
-    a current or past date, passing them to the query_builder function. Function creates a .csv file
-    of NOAA Daily Summary data for a specific station."""
+ 
