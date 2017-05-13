@@ -39,7 +39,4 @@ def noaa_dailysum_weather_processor(start_dt, end_dt, station):
 noaa_dailysum_weather_processor(sys.argv[1], sys.argv[2], sys.argv[3])
 
 
-
-def noaa_dailysum_weather_processor(start_dt, end_dt):
-
  
