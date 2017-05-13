@@ -24,7 +24,7 @@ stations and years.
 #### Doc String
 
 Function accepts a station ID, and beginning/end datetime as strings with date format as
-'MM-DD-YYYY' which span <= 1 year from a current or past date, passing them to the query_builder function. Function creates a .csv file of NOAA (NCDC) Daily Summary data for a specific station.
+'YYYY-MM-DD' which span <= 1 year from a current or past date, passing them to the query_builder function. Function creates a .csv file of NOAA (NCDC) Daily Summary data for a specific station.
 
 #### CLI Execution
 
