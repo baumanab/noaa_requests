@@ -33,7 +33,7 @@ def noaa_dailysum_weather_processor(start_dt, end_dt, station):
     print(15* '.' + "exporting to csv\n")
     my_csv, my_path= noaa_weather_tools.gen_csv(df, query_parameters)
     
-    print('spines reticulated............. filename= {}'.format(my_path))
+    print('splines reticulated............. filename= {}'.format(my_path))
     return my_csv
 
 noaa_dailysum_weather_processor(sys.argv[1], sys.argv[2], sys.argv[3])
