@@ -11,7 +11,7 @@ import string
 
 def query_builder(start_dt, end_dt, station, offset= 1):
 
-    """Function accepts: a start and end datetime string in the form 'YYYYMMDD mm:ss'
+    """Function accepts: a start and end datetime string in the form 'YYYY-MM-DD mm:ss'
     which are <= 1 year apart, a station ID, and an offset.
     Function assembles a query parameters/arguments dict and returns an API query and the
     query dictionary (query_dict). The relevant base URL is the NCDC endpoint
@@ -118,7 +118,7 @@ def collator(results):
 def get_ncdc(start_dt, end_dt, station):
 
     """
-    Function accepts a start date (MM-DD-YYY) an end date (MM-DD-YYYY)
+    Function accepts a start date (MM-DD-YYY) an end date (YYYY-MM-DD)
     and a NOAA station ID.  Date limit is 1 year.
     Function returns a tidy dataset in a PANDAS DataFrame where
     each row represents an observation about a day, a record count
