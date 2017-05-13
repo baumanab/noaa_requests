@@ -12,7 +12,7 @@ sys.path.append(r'noaa_weather_tools')
 from noaa_weather_tools import noaa_weather_tools
 
 
-print("Check dt format('DD-MM-YYYY', and whether dates span <= 1 year from a current or past date")
+print("Check dt format('YYYY-MM-DD', and whether dates span <= 1 year from a current or past date")
 print("If dates exceed one year, NCDC query returns a null object.\n")
 print("Need a token take a token, have a token, keep it to yourself @ https://www.ncdc.noaa.gov/cdo-web/token\n")
 print('start_dt: {}\nend_dt: {}'.format(sys.argv[1], sys.argv[2]))
@@ -22,7 +22,7 @@ print('Station: {}\n'.format(sys.argv[3]))
 def noaa_dailysum_weather_processor(start_dt, end_dt, station):
 
     """Function accepts a station ID, and beginning/end datetime as strings with date format as
-    'MM-DD-YYYY' which span <= 1 year from a current or past date, passing them to the query_builder function. 
+    'YYYY-MM-DD' which span <= 1 year from a current or past date, passing them to the query_builder function. 
     Function creates a .csv file of NOAA (NCDC) Daily Summary data for a specific station."""
     
     
