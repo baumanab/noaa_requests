@@ -48,7 +48,7 @@ Station: GHCND:USW00023174
 
 ...............exporting to csv
 
-spines reticulated............. filename= GHCND_USW00023174_2014-05-03_2015-05-02.csv
+splines reticulated............. filename= GHCND_USW00023174_2014-05-03_2015-05-02.csv
 ```
 
 #### Example CSV Output
