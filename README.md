@@ -35,7 +35,7 @@ python noaa_daily_weather_sum.py '2014-05-03' '2015-05-02' 'GHCND:USW00023174'
 #### Screen Output
 
 ```python
-Check dt format('DD-MM-YYYY', and whether dates span <= 1 year from a current or past date
+Check dt format('YYYY-MM-DD', and whether dates span <= 1 year from a current or past date
 If dates exceed one year, NCDC query returns a null object.
 
 Need a token take a token, have a token, keep it to yourself @ https://www.ncdc.noaa.gov/cdo-web/token.
