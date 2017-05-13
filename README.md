@@ -6,7 +6,7 @@ stations and years.
 
 - Temperature is returned in Fahrenheit
 - [Data Type Documentation](
- https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pd)
+ https://www1.ncdc.noaa.gov/pub/data/cdo/documentation/GHCND_documentation.pdf)
 
 ### How to use
 
